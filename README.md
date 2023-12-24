@@ -11,6 +11,21 @@ Paper Link: https://dl.acm.org/doi/pdf/10.1145/146628.139709
 
 Linux operating system is required in order to use the zsim. Do not use Cygwin, Mac OS X is not supported.
 
+# Environemnt setup
+Everytime you want to build or run zsim, you need to setup the environment variables first.
+
+$ source setup_env
+
+# Compile zsim
+
+$ cd zsim
+
+$ scons -j4
+
+# Launch a test to run
+
+./build/opt/zsim tests/simple.cfg
+
 # Run the following benchmarks using ZSim
    blackschoels, bodytrack, canneal, dedup, fluidanimate, freqmine, streamcluster, swaptions, x264
    1. Use branchpredictorscript to run the benchmarks
@@ -21,3 +36,4 @@ Linux operating system is required in order to use the zsim. Do not use Cygwin, 
 
       Example: $ ./hw2runscript blackscholes A2
    2. Check the results in outputs directory (zsim.out)
+
