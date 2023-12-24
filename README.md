@@ -42,4 +42,12 @@ blackschoels, bodytrack, canneal, dedup, fluidanimate, freqmine, streamcluster, 
        Example: $ ./branchpredscript blackscholes A2
     2. Check the results in outputs directory (zsim.out)
 
+# Result Analysis
 
+<img width="928" alt="image" src="https://github.com/Rajat5991/2-bit-Counter-for-branch-prediction/assets/154459536/7d56f0db-0a42-45ed-85bb-7c94f03f779e">
+
+<img width="500" alt="image" src="https://github.com/Rajat5991/2-bit-Counter-for-branch-prediction/assets/154459536/3f36db65-3642-46db-9760-40990d6345bf">
+
+In terms of Average CPI, Automaton A2 generally outperforms Automaton A3 across most benchmarks. Lower CPI values indicate better performance.
+Regarding Average Misprediction Rate, Automaton A2 tends to have lower misprediction rates in several benchmarks compared to A3, indicating better branch prediction accuracy.
+In summary, Automaton A2 shows better performance in terms of both CPI and misprediction rates across the specified benchmarks.
