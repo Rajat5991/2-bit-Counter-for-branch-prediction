@@ -5,6 +5,10 @@ The aim of this project is to create a 2-bit saturating up-down counter (referre
 
  Paper Link: https://dl.acm.org/doi/pdf/10.1145/146628.139709
 
+#  System Requirement
+
+Linux operating system is required in order to use the zsim. Do not use Cygwin, Mac OS X is not supported.
+
 # Environemnt setup
 
 Everytime you want to build or run zsim, you need to setup the environment variables first.
@@ -26,6 +30,14 @@ $ scons -j4
 ./build/opt/zsim tests/simple.cfg
 ```
 
+# Run the following benchmarks using ZSim
 
+blackschoels, bodytrack, canneal, dedup, fluidanimate, freqmine, streamcluster, swaptions, x264
+
+    1. Use branchpredscript to run the benchmarks
+       Note: The config files and runscript must be in the casim/zsim.
+       $ ./branchpredscript <benchmark> <automaton>
+       Example: $ ./branchpredscript blackscholes A2
+    2. Check the results in outputs directory (zsim.out)
 
 
