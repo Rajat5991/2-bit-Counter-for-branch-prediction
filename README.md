@@ -5,6 +5,8 @@ The aim of this project is to create a 2-bit saturating up-down counter (referre
 
  Paper Link: https://dl.acm.org/doi/pdf/10.1145/146628.139709
 
+ NOTE: A2 is used in zsim already, we need to add codes to implement the A3 state diagram. We will need to modify ooo_core.h to implement the state diagram.
+
 #  System Requirement
 
 Linux operating system is required in order to use the zsim. Do not use Cygwin, Mac OS X is not supported.
