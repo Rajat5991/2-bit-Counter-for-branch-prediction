@@ -15,6 +15,8 @@ Linux operating system is required in order to use the zsim. Do not use Cygwin, 
    blackschoels, bodytrack, canneal, dedup, fluidanimate, freqmine, streamcluster, swaptions, x264
    1. Use branchpredictorscript to run the benchmarks
       Note: The config files and runscript must be in the casim/zsim.
+
       $ ./branchpredictorscript <benchmark> <automaton>
+
       Example: $ ./hw2runscript blackscholes A2
    2. Check the results in outputs directory (zsim.out)
