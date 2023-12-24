@@ -5,7 +5,7 @@ The aim of this project is to create a 2-bit saturating up-down counter (referre
 
  Paper Link: https://dl.acm.org/doi/pdf/10.1145/146628.139709
 
-#Environemnt setup
+# Environemnt setup
 
 Everytime you want to build or run zsim, you need to setup the environment variables first.
 
@@ -13,14 +13,14 @@ Everytime you want to build or run zsim, you need to setup the environment varia
 $ source setup_env
 ```
 
-#Compile zsim
+# Compile zsim
 
 ```
 $ cd zsim
 $ scons -j4
 ```
 
-#Launch a test to run
+# Launch a test to run
 
 ```
 ./build/opt/zsim tests/simple.cfg
